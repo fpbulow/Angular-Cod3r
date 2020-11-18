@@ -16,6 +16,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     color: #FFF
 }
 
+.msg-success-delete {
+    background-color: #b54c4c;
+    color: #FFF
+}
+
 .msg-error {
     background-color: #F00000;
     COLOR: #FFF

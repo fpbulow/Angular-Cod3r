@@ -19,9 +19,18 @@ export class ProductService {
   showMessage(msg: string, isError: boolean = false): void {
     this.snackBar.open(msg, 'x', {
       duration: 3000,
-      horizontalPosition: "right",
-      verticalPosition: "top",
+      horizontalPosition: "center",
+      verticalPosition: "bottom",
       panelClass: isError ? ['msg-error'] : ['msg-success']
+    });
+  }
+
+  showMessageDelete(msg: string, isError: boolean = false): void {
+    this.snackBar.open(msg, 'x', {
+      duration: 3000,
+      horizontalPosition: "center",
+      verticalPosition: "bottom",
+      panelClass: isError ? ['msg-error'] : ['msg-success-delete']
     });
   }
 

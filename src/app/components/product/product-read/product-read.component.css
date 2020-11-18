@@ -6,10 +6,18 @@ table {
     margin-right: 5px;
 }
 
+.delete {
+    margin-right: 5px;
+}
+
 .edit > i {
     color: #03b6fc   
 }
 
 .delete > i{
     color: #E81E63
+}
+
+.deleteDialog > i{
+    color: #ff00ee
 }
